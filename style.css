@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+    --text-col-900: #000000;
+}   
+body {
+    background-color: #ffedd5;
+}
+#mainContainer {
+    width: 800px;
+    margin: 30px auto;
+    border: 6px solid #fb923c;
+    background-color: #fed7aa;
+    border-radius: 20px;
+    padding: 20px 40px 30px 40px;
+}
+#headerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+}
+#headerContainer p:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-col-900);    
+}
+#headerContainer p:nth-of-type(2) {
+    font-size: 17px;
+    color: var(--text-col-900);    
+}
+#headerContainer p:nth-of-type(3) {
+    font-size: 18px;
+    color: var(--text-col-900);   
+    font-style: italic;
+    font-weight: 600;
+}
+#headerDownSideContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#smallTable {
+    width: 180px;
+    border-collapse: collapse;
+    border: 1px solid #3f3f46;
+}
+#smallTable thead tr th {
+    font-size: 11px;
+    padding: 3px;
+    text-align: center;
+    font-weight: 600;
+}
+#smallTable tbody tr td {
+    font-size: 11px;
+    padding: 2px;
+    text-align: center;
+    font-weight: 600;
+}
+#headerDownSideMiddleContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#headerDownSideMiddleContainer img {
+    object-fit: cover;
+}
+#headerDownSideMiddleContainer h3 {
+    text-decoration: underline;
+    font-style: italic;
+}
+#headerDownSideLeftContainer p:nth-of-type(1) {
+    font-size: 13px;
+    font-weight: 600;
+}
+#headerDownSideLeftContainer p:nth-of-type(2) {
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+#infoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+#infoContainer div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#infoContainer div p {
+    width: 200px;
+    font-size: 13px;
+    font-weight: 600;
+}
+#infoContainer div span {
+    font-size: 13.5px;
+    font-style: italic;
+    font-weight: 500;
+}
+#mainTable table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    border: 1px solid #3f3f46;
+}
+#mainTable table thead tr th {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 6px;
+}
+#mainTable table tbody tr td {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px;
+    text-align: center;
+}
+#footerContainer {
+    margin-top: 30px;
+}
+#footerContainer p:nth-of-type(1) {
+    font-size: 14px;
+    font-weight: 400;
+}
+#footerContainer p:nth-of-type(2) {
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+#footerContainer div {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: 20px;
+}
+#footerContainer div p {
+    font-size: 13px;
+    /* font-style: italic; */
+    margin-top: 5px;
+}
